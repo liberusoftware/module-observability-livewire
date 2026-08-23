@@ -12,7 +12,6 @@ final class ObservabilityLivewireServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'observability-livewire');
-        Livewire\Livewire::component('observability-livewire-overview', Liberu\Foundation\ObservabilityLivewire\Livewire\Overview::class);
+        Livewire::component('observability-livewire-overview', Liberu\Foundation\ObservabilityLivewire\Livewire\Overview::class);
     }
 }
-

@@ -3,7 +3,7 @@
   "name": "observability-livewire",
   "display_name": "Observability Livewire",
   "description": "Observability livewire presentation adapter.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "category": "presentation",
   "provider": "Liberu\\Foundation\\ObservabilityLivewire\\ObservabilityLivewireServiceProvider",
   "requires": {
@@ -24,4 +24,3 @@
     "Accessible loading, empty, denied, and failure states"
   ]
 }
-
